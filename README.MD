@@ -5,6 +5,12 @@
 - The QuickDoc Manager macro allows you to easily build and display web content on the Cisco Room Navigator running in controller mode
 - The script will automatically generate a UI for you, based on the site information you provide in the Site_List object
 
+[![QuickDocs Manager UI](/images/uDocsQR-controlInterface.png)](#)
+
+| Minimum RoomOs Version | Webex Cloud | Webex Edge (Hybrid Cloud) | On-Premise | Microsoft Teams Room<br>On Cisco Devices |
+|:-----------------------|:------------|:--------------------------|:-----------|:-----------------------------------------|
+| 11.8.X                 | ✅ Yes       | ✅ Yes                    | ✅ Yes     | ❌ No                                    | 
+
 ## Solution Requirements
 
 ### Minimum RoomOS Version
@@ -24,6 +30,7 @@
 4. Save the configuration
 
 > CommonProxy allows the Room Navigator to access Web Content while connected to a Codec's Link Local Network
+
 > If you're navigator is paired to the codec over lan, this feel free to skip steps 1-4 above
 
 ## Macro Installation
